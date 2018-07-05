@@ -6,7 +6,8 @@ phases:
       - echo Nothing to do in the install phase...
   pre_build:
     commands:
-      - echo Nothing to do in the pre_build phase...
+      - echo Installing cfn-lint
+      - pip install cfn-lint
   build:
     commands:
       - echo Build started on `date`
