@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Build started on `date`
 #      - mvn install
+      - cfn-lint -v
   post_build:
     commands:
       - echo Build completed on `date`
