@@ -3,16 +3,16 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Nothing to do in the install phase...
-  pre_build:
-    commands:
       - echo Installing cfn-lint
       - pip install cfn-lint
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre-build phase...
   build:
     commands:
       - echo Build started on `date`
 #      - mvn install
-      - cfn-lint -v
+      - tests/multi-lint.sh
   post_build:
     commands:
       - echo Build completed on `date`
