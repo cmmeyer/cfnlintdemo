@@ -1,3 +1,5 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
 Description: >
     This template deploys an Application Load Balancer that exposes our various ECS services.
     We create them it a seperate nested template, so it can be referenced by all of the other nested templates.
