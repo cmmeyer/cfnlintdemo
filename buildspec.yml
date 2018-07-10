@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Build started on `date`
 #      - mvn install
-      - for filename in templates/*; do echo $filename; cfn-lint -i W --template $filename; done
+      - for filename in templates/*; do echo $filename; cfn-lint --template $filename; done
   post_build:
     commands:
       - echo Build completed on `date`
