@@ -11,7 +11,6 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-#      - mvn install
       - for filename in templates/*; do echo $filename; cfn-lint --template $filename; done
   post_build:
     commands:
