@@ -4,4 +4,4 @@ python:
 install:
   - pip install cfn-lint
 script:
-  - for filename in templates/*; do echo $filename; cfn-lint --template $filename; done
+  - for filename in templates/*; do echo $filename; cfn-lint -i W --template $filename; done
