@@ -2,10 +2,6 @@
 
 ### Build Status
 
-#**CodeBuild**
-#![CodeBuild Build 
-#Status](https://codebuild.us-east-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiZW83L0dFcVBqalRWdnExc0FxNkhmYTJiMFNMck1iRkc2QS9lc05OY1VPNlR2NlVEOWZNcG1tM1VaNFZPK3ozT05TeXRjdGtXbThCbzJvdFRwLzFMZkI4PSIsIml2UGFyYW1ldGVyU3BlYyI6IklHcUJCaHVzbDhDSnFXeFYiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
-
 **TravisCI**
 ![TravisCI Build Status](https://travis-ci.org/cmmeyer/CfnLintDemo.svg?branch=master)
 ### Intro
