@@ -3,7 +3,7 @@
 ### Build Status
 
 **TravisCI**
-[![Build Status](https://travis-ci.com/cmmeyer/CfnLintDemo.svg?branch=master)](https://travis-ci.com/cmmeyer/CfnLintDemo)
+[![Build Status](https://travis-ci.org/cmmeyer/CfnLintDemo.svg?branch=master)](https://travis-ci.org/cmmeyer/CfnLintDemo)
 
 ### Intro
 This repo has three templates used to build a simple network environment, plus a buildspec.yml file for CodeBuild and this README file including a build badge.
