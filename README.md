@@ -9,6 +9,8 @@ This repo has three templates used to build a simple network environment, plus a
 We're going to use this repo to walk through a basic demo of using cfn-python-lint to validate CloudFormation templates in Pull Requests prior to allowing
 the changes into our repo.
 
+Currently this repo does not validate for `Warnings`.
+
 ### Contents
 
 ```
