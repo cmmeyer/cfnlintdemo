@@ -3,7 +3,8 @@
 ### Build Status
 
 **TravisCI**
-![TravisCI Build Status](https://travis-ci.org/cmmeyer/CfnLintDemo.svg?branch=master)
+[![Build Status](https://travis-ci.com/cmmeyer/CfnLintDemo.svg?branch=master)](https://travis-ci.com/cmmeyer/CfnLintDemo)
+
 ### Intro
 This repo has three templates used to build a simple network environment, plus a buildspec.yml file for CodeBuild and this README file including a build badge.
 We're going to use this repo to walk through a basic demo of using cfn-python-lint to validate CloudFormation templates in Pull Requests prior to allowing
