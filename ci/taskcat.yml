@@ -1,0 +1,12 @@
+---
+global:
+  owner: cmmeyer@amazon.com
+  qsname: cfnlintdemo
+  regions:
+    - us-east-2
+    - us-west-2
+  reporting: true
+tests:
+  vpc-test:
+    parameter_input: vpc-config.json
+    template_file: vpc.yaml
