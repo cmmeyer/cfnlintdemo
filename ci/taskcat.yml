@@ -8,5 +8,5 @@ global:
   reporting: true
 tests:
   vpc-test:
-    parameter-input: config/vpc-config.json
-    template: vpc.yaml
+    parameter_input: config/vpc-config.json
+    template_file: vpc.yaml
