@@ -11,10 +11,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - cfn-lint -i W --template templates/*
+      - cfn-lint --template templates/* -i W
   post_build:
     commands:
       - echo Build completed on `date`
-#artifacts:
-#  files:
-#    - target/messageUtil-1.0.jar
